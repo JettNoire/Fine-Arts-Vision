@@ -1,0 +1,124 @@
+
+<!DOTYPE html>
+<html><head><script>
+document.addEventListener("contextmenu", function(event) { event.preventDefault(); }, false);
+document.addEventListener("keydown", function(event) {
+    if (event.ctrlKey && (event.key === "<b>u" || event.key === "<b>s" || event.key === "<b>i")) {
+        event.preventDefault();
+    }
+}, false);
+</script>
+
+<title>Art Movement Search</title>
+</head>
+
+<body><br><br>
+
+
+
+<table><tr><td></td></tr><tr><div  align="left">
+<blockquote><blockquote><blockquote>
+<p class="rnormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">If you need last minute rest assurance of your exam artists' movements, enter an artist's first and last name to check in what art age or style they dedicated their works, and click the button! The movement(s) will appear! The most famous
+are listed. Try it! It will help you remember what artist belonged (or belongs) to which period.</font></blockquote></blockquote></blockquote></div>
+<td>   <img src="C:\Users\susan\OneDrive\Desktop\FineArtsVision\images\156.png" width="350px" height="auto"></td>&nbsp;&nbsp;&nbsp;<td><h1 align="center"><font color="#ff0000">Check the Art Movement of the Artist</font></h1>
+<div align="center">
+<input id="myInput" type="text" value="Albrecht Durer">
+<button onclick="checkFruit()">Check Artist</button>
+<p id="demo"></p>
+<p>
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value
+  switch(fruits) {
+    case "Claude Monet":
+      text = "<b>The art movement is Impressionism.</b>";
+      break;
+    case "Franz Marc":
+      text = "<b>The art movement is German Expressonism.</b>";
+      break;
+    case "Pablo Picasso":
+      text = "<b>The art movement is Cubism.</b>";
+      break;
+    case "Leonardo Da Vinci":
+      text = "<b>The art movement is High Renaissance.</b>";
+      break;
+    case "Hieronymous Bosch":
+      text = "<b>The art movement is Northern European Renaissance.</b>";
+      break;
+    case "Michelangelo":
+      text = "<b>The art movement is High Renaissance.</b>";
+      break;
+    case "Albrecht Durer":
+      text = "<b>The art movements are Gothic and High Renaissance.</b>";
+      break;
+    case "Johannes Vermeer":
+      text = "<b>The art movements are Dutch Golden Age and Baroque.</b>";
+      break;
+    case "Pieter Bruegel":
+      text = "<b>The art movements are Dutch and Flemish Renaissance.</b>";
+      break;
+    case "Marc Rothko":
+      text = "<b>The art movement is Dadaism.</b>";
+      break;  
+    case "Salvadore Dali":
+      text = "<b>The art movement is Surrealism.</b>";
+      break;
+    case "Marcel DuChamp":
+      text = "<b>The art movement is Surrealism.</b>";
+      break;
+    case "Frida Kahlo":
+      text = "<b>The art movement is Surrealism.</b>";
+      break;
+    case "Edgar Degas":
+      text = "<b>The art movement is Impressionism.</b>";
+      break;
+    case "Mary Cassat":
+      text = "<b>The art movement is Impressionism.</b>";
+      break;
+    case "Andy Warhol":
+      text = "<b>The art movement is Pop Art.</b>";
+      break;
+    case "Gustave Caillebotte":
+      text = "<b>The art movement is Impressionism.</b>";
+      break;
+    case "Vincent Van Gogh":
+      text = "<b>The art movement is Post-Impressionism.</b>";
+      break;
+    case "Wassily Kandinsky":
+      text = "<b>The art movements are Abstract, Fauvism, Pointillism, and Symbolism.</b>";
+      break;
+    case "Edvard Munch":
+      text = "<b>The art movement is Modern.</b>";
+      break;
+    case "Gustav Klimt":
+      text = "<b>The art movement is Symbolism.</b>";
+      break;
+    case "Marc Chagall":
+      text = "<b>The art movement is Modern. His are Cubism, Symbolism, Fauvism, and Surrealism.</b>";
+      break;
+    case "Georges Seurat":
+      text = "<b>The art movement is Pointillism.</b>";
+      break;
+    case "Paul Cézanne":
+      text = "<b>The art movement is Impressionism.</b>";
+      break;
+    case "Camille Pissarro":
+      text = "<b>The art movements are Neo-Impressionist,  Pointillism, Impressionism</b>";
+      break;
+    case "Marc Chagall":
+      text = "<b>The art movement is Modern. His are Cubism, Symbolism, Fauvism, and Surrealism.</b>";
+      break;
+    case "Leonid Afremov":
+      text = "<b>The art movement is Modern. His influence is Impressionism.</b>";
+      break;
+  }                        
+  document.getElementById("demo").innerHTML = text;
+}
+
+</script></td>&nbsp;&nbsp;&nbsp;<td><img src="C:\Users\susan\OneDrive\Desktop\FineArtsVision\images\mona.jpg" width="300px" height="auto"></td></tr></table><br><br>
+</div></div>
+
+</body>
+</html>
+

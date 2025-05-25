@@ -1,0 +1,612 @@
+
+<!DOCTYPE html>
+<html><head><script>
+document.addEventListener("contextmenu", function(event) { event.preventDefault(); }, false);
+document.addEventListener("keydown", function(event) {
+    if (event.ctrlKey && (event.key === "u" || event.key === "s" || event.key === "i")) {
+        event.preventDefault();
+    }
+}, false);
+</script>
+
+<title>Art Test!</title>
+<style>
+
+body {
+    background-color: #99396c;
+}
+
+h1 {
+    font-family:  serif;
+    color: #fff88f;
+    text-align: center;
+    float: center;
+}
+
+div {
+
+    font-family: serif;
+    color: #ffde59;
+    float: center;
+} 
+
+table {
+
+     float: center;
+     padding: 30px;
+}  
+
+.nav  {
+
+    font-family: serif;
+    color: #ffba42;
+    text-align: center;
+    float: center;
+}
+
+
+p {
+    
+}
+
+ul {
+    list-style-type: horizontal;
+    margin: 30px;
+    padding: none;
+    overflow: hidden;
+    background-color: #333;
+    height: 130px;
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: none;
+    text-decoration: none;
+    font-family: serif;
+    color: #ffba42;
+    float: left;
+}
+
+li a:hover {
+    background-color: #ffba42;
+    float: left;
+}
+
+</style>
+
+      </head>
+<body>
+
+<div align="center"><h2>Art Practice Test </h2><br><br></div>
+<div id="padding">
+<table><tr><td padding="30px">
+
+<div id="padding">
+<h3>Who painted "Water Lilies"? </h3>
+
+<p id="demo3"><h3>Select your response.</h3></p>    
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Correct! Artist is Claude Monet 1840-1926. Art movement is Impressionism. Water Lilies was painted in  1899.</font>"'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Marc Chagall</button>
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "<font size=5>Incorrect! Artist is Claude Monet</font>."'>Leonid Afremov</button>
+
+</div>
+<br><br>
+<div id="padding">
+<h3>Who painted "City Rain”? </h3>
+
+<p id="demo1"><h3>Select your response.</h3></p>    
+
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Correct! Artist is Leonid Afremov 1955- . Art movement is Modern. Medium is palette knife and oil paint. (c. 2013).</font>"'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Marc Chagall</button>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "<font size=5>Incorrect! Artist is Leonid Afremov</font>."'>Claude Monet</button>
+
+</div>
+<br><br>
+<div id="padding">
+<h3>Who painted 'Mona Lisa"?</font>
+
+
+<p id="demo29"><h3>Select your response </h3></p> 
+
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Correct! Artist is Leonardo da Vinci 1452-1519. Art movement is Renaissance.</font>"'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo29").innerHTML = "<font size=5>Incorrect! Artist is Leonardo da Vinci</font>."'>Marc Chagall</button>
+
+
+</div>
+<br><br>
+
+<div id="padding">
+<h3>Who painted "The Luncheon on the Grass (Le dejeuner sur l'herbe)"?</font>
+<p id="demo5"><h3>Select your response </h3></p>    
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Correct! Artist is Edouard Manet 1832-1983. Art movement is Impressionism</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo5").innerHTML = "<font size=5>Incorrect! Artist is Edouard Manet</font>."'>Marc Chagall</button>
+
+</div>
+
+
+<br><br>
+
+
+
+<div id="padding">
+<h3>Who's sculpture is "David"?</font>
+
+<p id="demo4"><h3>Select your response </h3></p> 
+
+
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Correct! Artist is Michelangelo 1475-1564. Art movement is High Renaissance</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "<font size=5>Incorrect! Artist is Michelangelo</font>."'>Marc Chagall</button>
+
+
+</div>
+
+
+
+<br><br>
+
+<div id="padding">
+<h3>Who's sculpture "Head of a Woman"?</font>
+
+<p id="demo2"><h3>Select your response </h3></p> 
+
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Correct! Artist is Pablo Picasso 1881-1973. Art movement is Cubism</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Raphael Sanzio</button>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is Pablo Picasso</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "<font size=5>Incorrect! Artist is 
+Pablo Picasso</font>."'>Marc Chagall</button>
+
+
+</div>
+
+
+<br><br>
+
+<div id="padding">
+<h3>Who painted "L'Absinthe"?</font>
+
+<p id="demo6"><h3>Select your response </h3></p>    
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Albrecht Durer</button>
+
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Correct! Artist is Edgar Degas 1834-1917. The art movement is Impressionism</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo6").innerHTML = "<font size=5>Incorrect! Artist is Edgar Degas</font>."'>Marc Chagall</button>
+
+</div>
+
+
+<br><br>
+
+<div id="padding">
+<h3>Who painted "Rainy Day"?</font>
+
+<p id="demo7"><h3>Select your response </h3></p> 
+
+
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustave Caillebotte</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustave Caillebotte</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Edouard Manet </button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Correct! Artist is Gustave Caillebotte  1848-1894.  The art movement is Impressionism</font>."'>Gustave Caillebotte</button>
+
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>.”>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo7").innerHTML = "<font size=5>Incorrect! Artist is Gustav Caillebotte</font>."'>Marc Chagall</button>
+
+
+
+</div>
+
+
+<br><br>
+
+<div id="padding">
+<h3>Who painted "The Persistence of Time"?</font>
+
+<p id="demo8"><h3><h3>Select your response </h3></font></p> 
+   
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Correct! Artist is Salvador Dali. 1832-1983. Art movement is Surrealism</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Marc Chagall</button>
+<button type="button" onclick='document.getElementById("demo8").innerHTML = "<font size=5>Incorrect! Artist is Salvador Dali</font>."'>Leonid Afremov</button>
+
+</div>
+
+
+
+<br><br>
+
+
+
+
+<div id="padding">
+<h3>Who painted "The Garden of Earthly Delights"?</font>
+
+<p id="demo9"><h3>Select your response </h3></p> 
+
+
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Correct! Artist is Hieronymous Bosch 1450-1516. Art movement is Northern European High Renaissance. It is an oil on oak panels triptych dated between 1490 and 1510</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo9").innerHTML = "<font size=5>Incorrect! Artist is Hieronymous Bosch</font>."'>Marc Chagall</button>
+
+
+</div>
+
+<br><br>
+<div id="padding">
+<h3>Who painted "The Milkmaid"?</font>
+
+<p id="demo10"><h3>Select your response </h3></p> 
+
+
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Correct! Artist is Johannes Vermeer 1632-1675. Art movement is Dutch Golden Age. It is oil-on-canvas painted between 1658-1660</font>."'>Johannes Vermeer</button>
+
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist is Johannes Vermeer</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo10").innerHTML = "<font size=5>Incorrect! Artist Johannes Vermeer</font>."'>Marc Chagall</button>
+
+
+</div>
+
+
+<br><br>
+
+<div id="padding">
+<h3>Who painted "Nativity, from the Scrovegni Chapel (The Birth of Jesus)"?</font>
+<p id="demo11"><h3>Select your response </h3></p> 
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Correct! Artist is Giotto di Bondone 1266-1337. It is a fresco completed in 1305</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Johannes Vermeer </button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo11").innerHTML = "<font size=5>Incorrect! Artist is Giotto di Bondone</font>."'>Marc Chagall</button>
+
+
+</div>
+<br><br>
+
+<div id="padding">
+<h3>Who painted "Hunters in the Snow"?</font>
+<p id="demo25"><h3>Select your response </h3></p> 
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo25).innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Correct! Artist is Pieter Bruegel the Elder 1525-1569. The art movement is Northern Renaissance. It is oil-on-panel painted in 1665. He was the most significant artist of the Dutch and Flemish Renaissance</font>."'>Pieter Bruegel the Elder</button>
+
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Leond Afremov</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo25").innerHTML = "<font size=5>Incorrect! Artist is Pieter Bruegel the Elder</font>."'>Marc Chagall</button>
+
+
+</div>
+
+<br><br>
+
+<div id="padding">
+<h3>Who painted "Altarpiece, Beatified Bishop and Beatified Pope"?</font>
+<p id="demo13"><h3>Select your response </h3></p> 
+
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'> Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'> Pieter Bruegel the Elder </button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Correct! Artist is Cennino  Cennini 1360-1427. The art movement is Medieval and Early Renaissance</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Salvador Dali</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo13").innerHTML = "<font size=5>Incorrect! Artist is Cennino  Cennini</font>."'>Marc Chagall</button>
+
+</div>
+<br><br>
+
+<div id="padding">
+<h3>Who painted "War"?</font>
+
+<p id="demo24"><h3>Select your response </h3></p> 
+    
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Claude Monet</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Pablo Picasso</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Leonardo da Vinci</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Giotto di Bondone</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Michelangelo</button><br>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Hieronymous Bosch</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Edouard Manet</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Johannes Vermeer</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Pieter Bruegel the Elder</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Cennino Cennini</button><br>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Albrecht Durer</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Raphael Sanzio</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Leonid Afremov</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Gustave Caillebotte</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Correct! Artist is Marc Chagall. 1832-1983. Art movement is Surrealism</font>."'>Marc Chagall</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Marcel Duchamp</button><br>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Kathe Kollwitz</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Marc Rothko</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Edgar Degas</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Jacob Lawrence</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>."'>Andy Warhol</button>
+<button type="button" onclick='document.getElementById("demo24").innerHTML = "<font size=5>Incorrect! Artist is Marc Chagall</font>..">Salvador Dali</button>
+</div></td></tr></table>
+<br><br>
+<form>
+<label for="date">Today’s Date:</label>
+    <input type="text" id="date" name="date"><br><br>
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="grade">Grade Level:</label>
+    <input type="text" id="grade" name="grade"><br><br>
+
+    <button type="reset">Reset</button>
+  Clicking this button resets the entire test. 
+</form><br>
+<button onclick="window.print()">Print This Page</button>
+
+<div align="center">
+                <p><a href="C:/Users/susan/OneDrive/Desktop/FineArtsVision/fun/thankyou.html"><input type="submit" value="Goodbye"></a/></p> 
+</div>
+
+
+
+
+
+
+<br><br>
+</body>
+</html>
+
+
